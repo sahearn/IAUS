@@ -38,6 +38,6 @@ Then worked through each functional page:
     - su-submit.php: processor for submitted links
     - su-redirect.php: processor for redirecting links
     - .htaccess: for RewriteRules / redirects
-    - css/custom.css: custom styles
+    - css/custom.css: custom styles, including breakpoints for tablet/mobile
     - js/custom.js: jQuery handlers for submitted links 
 2. Create database table "shorturls" with 4 columns (shorturl, longurl, createddate, hits)
