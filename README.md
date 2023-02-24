@@ -31,6 +31,8 @@ Then worked through each functional page:
     - increment hit count for that url in the database
     - redirect user
 
+And full disclosure, all the code here is mine (except for the HTML5 Boilerplate), but I did get my UI inspiration from the good folks at [rb.gy](https://rb.gy/).
+
 ## Installation
 1. Grab/create relevant files
     - su.php: main landing page (or call it index.php or whatever)
@@ -41,3 +43,14 @@ Then worked through each functional page:
     - css/custom.css: custom styles, including breakpoints for tablet/mobile
     - js/custom.js: jQuery handlers for submitted links 
 2. Create database table "shorturls" with 4 columns (shorturl, longurl, createddate, hits)
+
+## Possible Future To-Dos
+- QR code generation
+- Improve CSS
+
+## Screenshots
+![Initial submission page](screenshots/submission.png "Initial submission page")
+
+![Short link created page](screenshots/submitted.png "Short link created page")
+
+![Database record created](screenshots/database.png "Database record created")
