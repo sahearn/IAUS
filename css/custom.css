@@ -1,0 +1,121 @@
+body {
+    background-color: #28384A;
+    color: #eee;
+    font-family: sans-serif;
+    margin-top: 3em;
+}
+
+#header {
+    color: #eee;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.flexcontainer {
+    display: flex;
+    justify-content: center;
+}
+
+#shortform {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
+#id_entrybar {
+    border:0;
+    border-radius: 4px;
+    height: 3em;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 70%;
+}
+
+#id_submit {
+    background-color: #2281c2;
+    border:0;
+    border-radius: 4px;
+    color: #eee;
+    font-weight: bold;
+    height: 3em;
+    margin-left: 2%;
+    width: 28%;
+}
+
+#resultcontainer {
+    background-color: #eee;
+    border-radius: 4px;
+    color: #000;
+    margin-top: 3em;
+    width: 60%;
+    display: none;
+}
+
+#resultcontent {
+    display: flex;
+    padding: 1em;
+}
+
+#longurlpart {
+    color: #666;
+    width: 60%;
+}
+
+#shorturl {
+    font-weight: bold;
+    width: 30%;
+}
+
+#shorturl a {
+    color: #2281c2;
+    text-decoration: none;
+}
+
+#shorturl a:hover {
+    text-decoration: underline;
+}
+
+#copylink {
+    color: #2281c2;
+    font-weight: bold;
+    width: 10%;
+}
+
+#copylink :hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 1000px) {
+    body {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    #shortform {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+    #id_entrybar, #id_submit, #resultcontainer {
+        width: 100%;
+    }
+    #id_submit {
+        margin-left: 0;
+        margin-top: 1em;
+    }
+    #resultcontent {
+        display: block;
+        padding: 1em;
+    }
+    #shorturl {
+        float: left;
+        padding-bottom: 1em;
+        padding-top: 0.5em;
+    }
+    #copylink {
+        float: right;
+        padding-top: 0.5em;
+    }
+}
