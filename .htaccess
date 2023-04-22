@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^su.php(.*)$ su.php [L,QSA]
+RewriteRule ^(.{5})$ su-redirect.php?s=$1 [L,QSA]
